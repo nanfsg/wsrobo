@@ -41,7 +41,7 @@ public class Localizacao {
 		if(orientacao == 1){
 			this.orientacao = Orientacao.N;
 		}else if(orientacao == 2){
-			this.orientacao = Orientacao.O;
+			this.orientacao = Orientacao.E;
 		}else if(orientacao == 3){
 			this.orientacao = Orientacao.S;
 		}else if(orientacao == 4){

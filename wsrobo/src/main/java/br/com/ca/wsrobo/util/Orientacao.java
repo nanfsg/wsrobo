@@ -2,7 +2,7 @@ package br.com.ca.wsrobo.util;
 
 public enum Orientacao {
 
-	N(1),O(2),S(3),W(4);
+	N(1),E(2),S(3),W(4);
 	
 	private final int direcao;
 	

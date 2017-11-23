@@ -16,7 +16,7 @@ public class Interpretador {
 						if(localizacao.getNameOrientacao().equals("S")) {
 							localizacao.setEixoY(localizacao.getEixoY() - 1);
 						}
-						if(localizacao.getNameOrientacao().equals("O")) {
+						if(localizacao.getNameOrientacao().equals("E")) {
 							localizacao.setEixoX(localizacao.getEixoX() + 1);
 						}
 						if(localizacao.getNameOrientacao().equals("W")) {
