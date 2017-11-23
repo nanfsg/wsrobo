@@ -17,7 +17,7 @@ public class Validador {
 		return true;
 	}
 
-	public boolean validaPosicao(Localizacao posicao) {
+	public boolean validaPosicao(Localizacao posicao) { 
 		
 		if(posicao.getEixoX()>config.getTamanhoMaximoX() || posicao.getEixoX()<config.getTamanhoMinimoX() || 
 				posicao.getEixoY()>config.getTamanhoMaximoY() || posicao.getEixoY()<config.getTamanhoMinimoY()) {
