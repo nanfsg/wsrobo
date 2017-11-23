@@ -9,7 +9,7 @@ public class Validador {
 	
 	public boolean validaComando(String comando) {
 		
-		for (char valorComando : comando.toCharArray()) {
+		for (char valorComando : comando.toCharArray()) { 
 			if(valorComando != 'L' && valorComando != 'R' && valorComando != 'M') {
 				return false;
 			}
